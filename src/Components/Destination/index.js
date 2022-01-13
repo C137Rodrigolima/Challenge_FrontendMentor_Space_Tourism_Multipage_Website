@@ -1,5 +1,11 @@
+import { BoxDestination } from "./style";
+
 function Destination(){
-    return <div>Destination</div>
+    return (
+        <BoxDestination>
+            <div>Destination</div>
+        </BoxDestination>
+    );
 }
 
 export default Destination;

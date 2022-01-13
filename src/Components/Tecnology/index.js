@@ -1,5 +1,11 @@
+import { BoxTecnology } from "./style";
+
 function Tecnology(){
-    return <div>Tecnology</div>
+    return (
+    <BoxTecnology>
+        <div>Tecnology</div>
+    </BoxTecnology>
+    );
 }
 
 export default Tecnology;

@@ -1,5 +1,11 @@
+import { BoxCrew } from "./style";
+
 function Crew(){
-    return <div>Crew</div>
+    return (
+    <BoxCrew>
+        <div>Crew</div>
+    </BoxCrew>
+    );
 }
 
 export default Crew;

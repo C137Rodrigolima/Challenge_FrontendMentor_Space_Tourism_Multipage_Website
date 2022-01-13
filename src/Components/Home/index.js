@@ -1,7 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { BoxHome, BoxContent, StyledExploreButton } from "./styles";
 
-
 function Home (){
+    const navigate = useNavigate();
     return (
         <BoxHome>
             <BoxContent>
@@ -14,7 +15,7 @@ function Home (){
                     world experience!
                 </h6>
             </BoxContent>
-        <StyledExploreButton onClick={()=> alert("BUTTON")}>EXPLORE</StyledExploreButton>
+        <StyledExploreButton onClick={()=> navigate("/Destination")}>EXPLORE</StyledExploreButton>
         </BoxHome>
     );
 }

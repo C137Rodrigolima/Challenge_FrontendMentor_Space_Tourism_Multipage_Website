@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const BoxHome = styled.div `
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding-top: 251px;
     display: flex;
